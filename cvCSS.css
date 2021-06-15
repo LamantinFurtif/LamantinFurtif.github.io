@@ -1,0 +1,106 @@
+html, body, main, section { 
+}
+
+body {
+	background-color: #BFFF80;
+	font-family: Arial;
+}
+
+header {
+	background-color: #408000;
+	display: block;
+	width:100%;
+	padding:20px;
+	text-align:center;
+}
+
+h1 {
+	color: white;
+	font-family: "Arial Black", "Arial Nova", Arial;
+	font-size: xx-large;
+	font-variant: small-caps;
+	line-height: .8;
+}
+
+h2 {
+	color: #002200;
+	font-family: "Arial Black", "Arial Nova", Arial;
+	font-size: x-large;
+	font-variant: normal;
+	line-height: 0.6 !important;
+}
+
+ul {
+	padding:none;
+	
+}
+
+li {
+	list-style-type: none; 
+	line-height: 130%;
+}
+
+
+
+img {
+	border: solid 3px #002200;
+	border-radius:50%;
+}
+
+aside {
+	z-index: 1;
+	position:absolute;
+	top:0px;
+	max-width:30%;
+	font-size: large;
+	float:left;
+	display: block;
+}
+
+section {
+	margin : 15px;
+	width : 60%;
+	float:right;
+
+}
+
+.partie {
+	border-style:hidden;
+	border-radius:20px;
+	padding:1%;
+	background-color: #99FF33; 
+	display:block;
+	box-shadow: 5px 10px rgba(0,0,0,0.3);
+}
+
+.hiddenstuff {
+	visibility:hidden;
+}
+
+#identite {
+	font-style: italic;
+	color: 334433
+}
+
+#bulletPoints {
+	background-color: #99FF55; 
+	padding-left:3%;
+	line-height: 130%;
+}
+
+#image {
+	margin:5%;
+	width: 300px;
+	display:block;
+	background-color: transparent; 
+}
+
+
+.partie > .cont {
+  visibility: hidden;
+  height:0px;  
+}
+.partie:hover > .cont {
+  visibility: visible;
+  height:auto;
+}
